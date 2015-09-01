@@ -289,11 +289,12 @@ textarea {
          url('../fonts/Moon-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
          url('../fonts/Moon-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
-body, a {
+#content {
     font-family: 'Moon';
     color: #4D4D4D;
 }
 a {
+    color: #4D4D4D;
     text-decoration: none;
 }
 h1 {
