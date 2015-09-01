@@ -289,25 +289,27 @@ textarea {
          url('../fonts/Moon-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
          url('../fonts/Moon-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
-#content {
-    font-family: 'Moon';
-    color: #4D4D4D;
+body {
+    position: relative;
 }
 a {
     color: #4D4D4D;
     text-decoration: none;
 }
 h1 {
-    font-size: 48px;
-    margin-bottom: 20px;
+    font-size: 4em;
+    margin-bottom: 0.5em;
 }
 h2 {
-    font-size: 24px;
+    font-size: 1.8em;
 }
 #content {
+    font-family: 'Moon';
+    color: #4D4D4D;
+    top: 50%;
+    transform: translateY(-50%);
     position: absolute;
     margin: 0px auto;
-    top: 30%;
     margin: 0px auto;
     width: 100%;
     text-align: center;
@@ -318,6 +320,10 @@ h2 {
 #icons {
     margin-top: 50px;
 }
+#icons a {
+    text-align: center;
+}
 #icons i {
     width: 50px;
+
 }
