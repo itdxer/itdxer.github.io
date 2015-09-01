@@ -318,8 +318,6 @@ h2 {
 #icons {
     margin-top: 50px;
 }
-#icons a {
+#icons i {
     width: 50px;
-    display: inline-block;
-    text-align: center;
 }
