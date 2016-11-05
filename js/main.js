@@ -8,7 +8,7 @@ function fillBackground() {
     var pattern = Trianglify({
         width: window.innerWidth,
         height: window.innerHeight,
-        x_colors: 'RdBu',
+        x_colors: 'PuOr',
         cell_size: 50
     });
     document.getElementById('canvas').appendChild(pattern.canvas());

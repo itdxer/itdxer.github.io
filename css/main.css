@@ -293,24 +293,26 @@ body {
     position: relative;
 }
 a {
-    color: #4D4D4D;
+    color: #222;
     text-decoration: none;
 }
 h1 {
     font-size: 4em;
-    margin-bottom: 0.5em;
+    font-weight: 400;
+    margin-bottom: 0;
 }
 h2 {
     font-size: 1.8em;
+    margin-top: 0;
 }
 #content {
     font-family: 'Moon';
-    color: #4D4D4D;
+    color: #222;
     top: 50%;
     transform: translateY(-50%);
     position: absolute;
     margin: 0px auto;
-    margin: 0px auto;
+    margin-top: 0px;
     width: 100%;
     text-align: center;
 }
@@ -322,8 +324,9 @@ h2 {
 }
 #icons a {
     text-align: center;
+    margin-right: 20px;
 }
 #icons i {
     width: 50px;
-
+    vertical-align: middle;
 }
